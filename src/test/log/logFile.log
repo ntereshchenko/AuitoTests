@@ -193,3 +193,299 @@ Going forward
 Stopped at the penultimate image
 Quit driver
 -Dio.netty.initialSeedUniquifier: 0xb10325232f1eed4e
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Test testSearchFieldOnMoviesPage 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .search-input (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:4757, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4757/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7135c869-4008-4d48-8554-d1bd1047c59e
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xf3a1ef9cc7e75d5b
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Navigate to student's search page
+Enter search condition
+Execute search
+Test testSearchFieldOnMoviesPage 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .gsc-resultsbox-visible (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:27477, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9488, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27477/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d648569-a5bc-4086-a28f-81e87095efc4
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xe0a0f973b050d3fe
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Test testSearchFieldOnMoviesPage 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .search-input (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:26657, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8616, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26657/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0b640b6-4432-42fa-8437-b5e2f8f121d4
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x6ca163916d8b3544
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Navigate to movies search page
+Enter search condition
+Execute search
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x624efecae056916b
+Navigate to the main page
+Test testFindElementWithXPath 
+
+Text of the element: КОНТАКТИ
+
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xdf990deb61bce15a
+Navigate to the main page
+Test testFindElementWithXPath 
+
+Text of the element: Вхід
+
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x53a167bb5512b3f8
+Navigate to the main page
+Test testFindElementWithXPath 
+
+Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/header/div/div[13]/div/div/div[2]/a (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:4027, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1092, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:4027/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c44848e-4086-43b5-8fbc-3a99174027e0
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xc7a5a3ddd2e38fe7
+Navigate to the main page
+Test testFindElementWithXPath 
+
+Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[1]/div/div/div/div[1]/div[1]/header/div/div[13]/div/div/div[2]/a (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:42923, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10188, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42923/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53d89e92-c9f7-4fd4-a811-d50b9fe34a5c
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xaced216b2e9ddcf5
+Navigate to the main page
+Test testFindElementWithXPath 
+
+Text of the element: 
+
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xb2fdceedb1a10e47
+Navigate to the main page
+Test testLogoElementExists 
+
+Logo element with id logo exists on the page
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x876a26515f3eac28
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Test testSearchFieldOnMoviesPage 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .search-input (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:1489, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8888, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:1489/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a209f55c-36ab-4072-8f30-8406142d4650
+Navigate to the main page
+Test testClickOnForStudent 
+
+Expected condition failed: waiting for visibility of element located by By.id: but (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:1489, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8888, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:1489/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a209f55c-36ab-4072-8f30-8406142d4650
+Navigate to the main page
+Test testLogoElementExists 
+
+Logo element with id logo exists on the page
+Test testSlider 
+
+Navigate to the main page
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Stopped at the penultimate image
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x2280a30561a579ec
+Test testSearchFieldOnMoviesPage 
+
+Class attribute: search-input
+Type attribute: 
+
+Navigate to movies search page
+Enter search condition
+Execute search
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xec193ea2836e7568
+Navigate to the main page
+Test testInputDataAndCheckField 
+
+Input data 'Test Input' into the search field
+Search field contains data: Test Input
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xd975e14092bbf19a
+Navigate to the main page
+Test testInputDataAndCheckField 
+
+Input data 'Test Input' into the search field
+Search field contains data: Test Input
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xd1de3e9a1ba87948
+Navigate to the main page
+Test testInputDataAndCheckField 
+
+Clicked on the icon to activate the search field
+Input data 'Test Input' into the search field
+Search field contains data: Test Input
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x9b58d9d8da6d6f7f
+Navigate to the main page
+Test testInputDataAndCheckField 
+
+Clicked on the icon to activate the search field
+Input data 'Вонка' into the search field
+Search field contains data: Вонка
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xc6a227dd1347a67d
+Navigate to the main page
+Test testSearchFieldOnForStudentsPage 
+
+Name attribute: s
+ID attribute: but
+Type attribute: but
+Value attribute: submit
+Position: (798;8)
+Size: 20x20
+
+Navigate to student's search page
+Enter search condition
+Execute search
+Navigate to the main page
+Test testClickOnForStudent 
+ Successfully entered the page 'For student'
+Test testSlider 
+
+Navigate to the main page
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Stopped at the penultimate image
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x896cfc345fb7a25e
+Navigate to the main page
+Test testClickOnForStudent 
+
+Expected condition failed: waiting for visibility of element located by By.id: but (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:3600, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 248, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3600/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1a974507-9f95-4b6a-8ded-4967d83e764d
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x04d5f21e69478f16
+Navigate to the main page
+Test testClickOnShowtimes 
+
+Expected condition failed: waiting for url to be "https://planetakino.ua//kiev/showtimes/". Current url: "https://planetakino.ua/showtimes/#today" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:9403, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10968, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9403/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 519465b1-22fe-431e-ab2a-df44294d54e9
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xa235b2bf8a8b89ef
+Navigate to the main page
+Test testClickOnShowtimes 
+
+Expected condition failed: waiting for url to be "https://planetakino.ua//kiev/showtimes/". Current url: "https://planetakino.ua/showtimes/#today" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:26580, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3232, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26580/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed422570-3137-452d-ad8a-5ddfb5686d93
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x9f9a84b366a15572
+Navigate to the main page
+Test testClickOnElement 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .some-other-element (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:3143, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3528, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3143/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bca311d9-5d98-4132-8447-ab418d9f4bbf
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x4fd2c412ffad0094
+Navigate to the main page
+Test testClickOnElement 
+
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .some-other-element (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:11977, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3332, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11977/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 79c35f6e-1440-4f54-ba98-56e6167b2e76
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x35ef2098ff8086d6

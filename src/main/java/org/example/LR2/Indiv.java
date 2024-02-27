@@ -63,69 +63,123 @@ public class Indiv {
         firefoxDriver.quit();
     }
 
-
     @Test
-    public void testClickOnShowtimes(){
-        try{
+    public void testLogoElementExists() {
+        try {
             preconditions();
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/header/div/div[1]/ul/li[1]/a")));
-            //find element by XPath
-            WebElement ShowtimesButton = firefoxDriver.findElement(By.xpath("/html/body/div[1]/header/div/div[1]/ul/li[1]/a"));
-            //verification
-            Assert.assertNotNull(ShowtimesButton );
-            ShowtimesButton .click();
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("but")));
-            //verification page changed
-            Assert.assertNotEquals(firefoxDriver.getCurrentUrl(), baseURL);
-            filename = "Showtimes.png";
+            filename = "MainPage.png";
             takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
-            log.info(String.format("Test %s \n Successfully entered the page 'ShowtimesButton '", "testClickOnShowtimes"));
-        }
-        catch(Exception e){
-            log.info(String.format("Test %s \n", "testClickOnForStudent"));
+
+            // Унікальний ідентифікатор елемента
+            String logoId = "logo";
+
+            // Очікування видимості елемента за ідентифікатором
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(logoId)));
+
+            // Знаходження елементу за ідентифікатором
+            WebElement logoElement = firefoxDriver.findElement(By.id(logoId));
+
+            // Перевірка наявності елементу
+            Assert.assertNotNull(logoElement);
+
+            log.info(String.format("Test %s \n", "testLogoElementExists"));
+            log.info(String.format("Logo element with id %s exists on the page", logoId));
+
+            // Виконання інших дій з елементом, які вам потрібні
+
+            filename = "LogoElementExists.png";
+            takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
+        } catch (Exception e) {
+            log.info(String.format("Test %s \n", "testLogoElementExists"));
             log.info(e.getMessage());
         }
     }
-      /*  @Test
-        public void testSearchFieldOnMoviesPage(){
-            try {
-                String moviestPageURL = "/dnipro/movies/";
-                firefoxDriver.get(baseURL + moviestPageURL);
-                wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("input")));
-                //find element by TagName
-                WebElement searchButton = firefoxDriver.findElement(By.tagName("input"));
-                //verification
-                Assert.assertNotNull(searchButton);
-                //different params of searchField
-                log.info(String.format("Test %s \n","testSearchFieldOnMoviesPage"));
-                log.info(String.format("Class attribute: %s\n", searchButton.getAttribute("class")) +
-                        String.format("Type attribute: %s\n", searchButton.getAttribute("id"));
-                searchButton.click();
-                wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("gsc-i-id1")));
-                log.info("Navigate to student's search page");
-                //input value
-                String inputValue = "I need info";
-                log.info("Enter search condition");
-                WebElement searchField = firefoxDriver.findElement(By.id("gsc-i-id1"));
-                searchField.sendKeys(inputValue);
-                filename = "ForStudentsSearchPage.png";
-                takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
-                log.info("Execute search");
-                //click enter
-                searchField.sendKeys(Keys.ENTER);
-                //verification text
-                Assert.assertEquals(searchField.getAttribute("value"), inputValue);
-                //verification page changed
-                Assert.assertNotEquals(firefoxDriver.getCurrentUrl(), moviestPageURL);
-                wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".gsc-resultsbox-visible")));
-                filename = "SearchResultPage.png";
-                takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
-            }
-            catch(Exception e){
-                log.info(String.format("Test %s \n", "testSearchFieldOnForStudentsPage"));
-                log.info(e.getMessage());
-            }
-        }*/
+
+    @Test
+    public void testClickOnElement() {
+        try {
+            preconditions();
+
+            // Змінено знаходження елементу за CSS-селектор
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.h-m__item:nth-child(1) > a:nth-child(1)")));
+
+            // Змінено знаходження елементу за CSS-селектор
+            WebElement elementToClick = firefoxDriver.findElement(By.cssSelector("li.h-m__item:nth-child(1) > a:nth-child(1)"));
+
+            // Перевірка наявності елементу
+            Assert.assertNotNull(elementToClick);
+
+            // Клік по елементу
+            elementToClick.click();
+
+            // Очікування на те, щоб з'явився якийсь елемент після кліку
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".some-other-element")));
+
+            // Змінено ім'я файлу для скріншоту після кліку
+            filename = "Showtimes_Clicked.png";
+
+            // Затримка перед зніманням скріншоту, щоб дати час для завантаження нового вмісту
+            Thread.sleep(2000);
+
+            // Зняти скріншот
+            takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
+
+            // Логування успішного кліку
+            log.info(String.format("Test %s \n Successfully clicked on the element", "testClickOnElement"));
+        } catch (Exception e) {
+            log.info(String.format("Test %s \n", "testClickOnElement"));
+            log.info(e.getMessage());
+        }
+    }
+
+
+
+
+    @Test
+    public void testInputDataAndCheckField() {
+        try {
+            preconditions();
+            filename = "MainPage.png";
+            takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
+
+            // Знаходження елементу за CSS
+            WebElement iconElement = firefoxDriver.findElement(By.cssSelector("i.material-icons:nth-child(2)"));
+
+            // Перевірка наявності елементу
+            Assert.assertNotNull(iconElement);
+
+            // Натискання на іконку
+            iconElement.click();
+
+            // Знаходження елементу за CSS
+            WebElement searchInput = firefoxDriver.findElement(By.cssSelector(".search-input"));
+
+            // Перевірка наявності елементу
+            Assert.assertNotNull(searchInput);
+
+            // Введення даних у поле
+            String inputData = "Вонка";
+            searchInput.sendKeys(inputData);
+
+            // Перевірка, чи є дані у полі
+            Assert.assertEquals(searchInput.getAttribute("value"), inputData);
+
+            log.info(String.format("Test %s \n", "testInputDataAndCheckField"));
+            log.info("Clicked on the icon to activate the search field");
+            log.info(String.format("Input data '%s' into the search field", inputData));
+            log.info(String.format("Search field contains data: %s", searchInput.getAttribute("value")));
+
+            // Виконання інших дій з елементом, які вам потрібні
+
+            filename = "InputDataAndCheckField.png";
+            takeSnapShot(firefoxDriver, screenshotPath.concat(filename));
+        } catch (Exception e) {
+            log.info(String.format("Test %s \n", "testInputDataAndCheckField"));
+            log.info(e.getMessage());
+        }
+    }
+
+
     @Test
     public void testSlider() {
         try {
