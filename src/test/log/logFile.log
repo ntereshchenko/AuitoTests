@@ -1,0 +1,195 @@
+Navigate to the main page
+Test testHeaderExists 
+
+Expected condition failed: waiting for visibility of element located by By.id: header (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:10175, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9940, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:10175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dab35015-c4b1-4214-b9bd-b043579e6892
+Test testSearchFieldOnForStudentsPage 
+
+Name attribute: s
+ID attribute: but
+Type attribute: but
+Value attribute: submit
+Position: (798;8)
+Size: 20x20
+
+Navigate to student's search page
+Enter search condition
+Execute search
+Navigate to the main page
+Test testClickOnForStudent 
+ Successfully entered the page 'For student'
+Test testSlider 
+
+Navigate to the main page
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Stopped at the penultimate image
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x748910a9996b92a5
+Navigate to the main page
+Test testHeaderExists 
+
+Expected condition failed: waiting for visibility of element located by By.id: header (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:39937, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9728, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:39937/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0fee7c34-ec3a-4919-a9eb-747cf4bcc68a
+Test testSearchFieldOnForStudentsPage 
+
+Name attribute: s
+ID attribute: but
+Type attribute: but
+Value attribute: submit
+Position: (798;8)
+Size: 20x20
+
+Navigate to student's search page
+Enter search condition
+Execute search
+Navigate to the main page
+Test testClickOnForStudent 
+ Successfully entered the page 'For student'
+Test testSlider 
+
+Navigate to the main page
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Going forward
+Going backwards
+Stopped at the penultimate image
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xae1a839647cabf81
+Navigate to the main page
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xe50877ef0a3a44f9
+Navigate to the main page
+Navigate to the main page
+Test testHeaderExists 
+
+Expected condition failed: waiting for visibility of element located by By.id: footer1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:46519, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6132, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46519/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 87df47c8-453a-4fdb-8467-11c394938ac5
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x74b20cdd84d2aabb
+Test testHeaderExists 
+
+Expected condition failed: waiting for visibility of element located by By.id: footer1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:18650, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9548, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:18650/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46656a00-576c-43af-a7ef-0c1ae1549a14
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x800c6bb2e75c4a3f
+Navigate to the main page
+Test testHeaderExists 
+
+Expected condition failed: waiting for visibility of element located by By.id: footer1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:6032, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3140, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6032/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2939ecd8-1775-4ec6-9183-27456aad0f9f
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x2b31e72804caec3b
+Navigate to the main page
+Navigate to the main page
+Test testClickOnForStudent 
+
+Expected condition failed: waiting for visibility of element located by By.id: but (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:42141, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1292, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42141/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 42c47f44-bab7-436a-b98a-e059bdcafb4a
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x6eef4fb56234e58d
+Test testClickOnForStudent 
+
+Expected condition failed: waiting for visibility of element located by By.id: but (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:20006, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11256, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20006/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 778f1268-4e8e-4767-b295-7e1fe0ad3736
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xaeff9620c197999a
+Navigate to the main page
+Test testClickOnForStudent 
+
+Expected condition failed: waiting for visibility of element located by By.id: but (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:12853, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11844, moz:profile: C:\Users\5B3B~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:12853/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 37e435c6-77e7-4aa8-a257-81852652b890
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0x764697bb8c5e59be
+Test testSlider 
+
+Navigate to the main page
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Going forward
+Stopped at the penultimate image
+Quit driver
+-Dio.netty.initialSeedUniquifier: 0xb10325232f1eed4e
